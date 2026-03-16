@@ -1,0 +1,11 @@
+### CREATE A NEW USER ENTITY
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Anietimfon Effion",
+  "email": "anietimfoneeffiong@gmail.com",
+  "address": "124 itu road",
+  "dateOfBirth": "1988-12-27",
+  "registeredDate": "2026-02-22"
+}

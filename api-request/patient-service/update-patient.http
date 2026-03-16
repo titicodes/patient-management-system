@@ -1,0 +1,11 @@
+### UPDATE A NEW PATIENT ENTITY
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174004
+Content-Type: application/json
+
+{
+  "name": "Emily Davis",
+
+  "address": "124 itu road",
+  "dateOfBirth": "1988-12-27",
+  "registeredDate": "2026-02-22"
+}
